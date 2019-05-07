@@ -1,0 +1,46 @@
+{
+    "name": "immutable-plus-promises",
+    "version": "1.0.0",
+    "description": "Using Immutable.js to identify items in the Redux store",
+    "author": "ievgen11",
+    "dependencies": {
+        "@rmwc/button": "^5.4.2",
+        "@rmwc/card": "^5.5.1",
+        "@rmwc/circular-progress": "^5.3.1",
+        "@rmwc/dialog": "^5.4.2",
+        "@rmwc/icon": "^5.3.1",
+        "@rmwc/linear-progress": "^5.5.1",
+        "@rmwc/list": "^5.5.1",
+        "@rmwc/menu": "^5.4.3",
+        "@rmwc/provider": "^5.2.1",
+        "@rmwc/snackbar": "^5.5.1",
+        "@rmwc/textfield": "^5.4.2",
+        "@rmwc/typography": "^5.4.2",
+        "express": "^4.16.4",
+        "faker": "^4.1.0",
+        "immutable": "^3.8.2",
+        "path": "^0.12.7",
+        "react": "^16.1.1",
+        "react-dom": "^16.1.1",
+        "react-json-tree": "^0.11.2",
+        "react-redux": "^5.0.5",
+        "react-router-dom": "^4.3.1",
+        "react-router-redux": "^4.0.7",
+        "react-scripts": "^2.0.0",
+        "redux": "^4.0.0",
+        "redux-promise-middleware": "^5.1.1",
+        "redux-thunk": "^2.1.0"
+    },
+    "scripts": {
+        "build": "NODE_ENV=production react-scripts build",
+        "watch": "NODE_ENV=development PORT=8080 react-scripts start",
+        "start": "node ./server.js",
+        "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install && npm run build"
+    },
+    "browserslist": [
+        ">0.2%",
+        "not dead",
+        "not ie <= 11",
+        "not op_mini all"
+    ]
+}
